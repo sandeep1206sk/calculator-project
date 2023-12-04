@@ -1,0 +1,43 @@
+
+#main-div{
+    margin: 10% 15%;
+    background-image: url(https://altair.com/images/default-source/news-images/mainimage-2.jpg?sfvrsn=6ce99e08_6);
+    border: 3px solid black;
+    animation: animation 7s infinite;
+    background-size: 180% 180%;
+
+
+}
+@keyframes animation {
+    0% {
+    background-position: 10% 40%;
+}
+
+50% {
+    background-position: 40% 90%;
+}
+
+100% {
+    background-position: 90% 10%;
+}
+}
+#button:hover{
+   
+    background-image: linear-gradient(to right ,red, rgb(252, 248, 9), rgb(255, 0, 0));
+    border: 3px solid black;
+    animation: animation2 2s infinite;
+    background-size: 180% 180%;
+}
+@keyframes animation2 {
+    0% {
+    background-position: 10% 40%;
+}
+
+50% {
+    background-position: 40% 90%;
+}
+
+100% {
+    background-position: 90% 10%;
+}
+}
